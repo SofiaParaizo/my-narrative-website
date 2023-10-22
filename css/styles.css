@@ -11566,8 +11566,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
+  padding: 10rem 0;
   background: border-radius: 40px;
   background-position: center;
   background-repeat: no-repeat;
