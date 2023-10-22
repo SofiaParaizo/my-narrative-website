@@ -65,7 +65,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #141414;
 }
 
 *,
@@ -11563,20 +11563,17 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/bg-masthead.png"); border-radius: 40px;
+  background: border-radius: 40px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
-
 .masthead h1, .masthead .h1 {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  color:#ffffff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #10967B;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11584,8 +11581,8 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -11594,9 +11591,8 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
