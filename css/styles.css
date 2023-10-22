@@ -7937,6 +7937,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-pink {
+  --bs-text-opacity: 1;
+  color: #FBACD9 !important;
+}
+
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -11587,8 +11592,7 @@ body {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
-    padding: 0;
+    height: 50vh;
   }
   .masthead h1, .masthead .h1 {
     font-size: 3.5rem;
