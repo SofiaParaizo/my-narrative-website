@@ -603,6 +603,7 @@ progress {
 }
 
 .img-fluid {
+  border-radius: 30px;
   max-width: 100%;
   height: auto;
 }
@@ -7967,6 +7968,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-1 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11484,8 +11490,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #EAEAEA;
+  border: 1px solid #EAEAEA;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11514,12 +11520,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11595,10 +11601,10 @@ body {
   }
   .masthead h1, .masthead .h1 {
     font-size: 3.5rem;
-    line-height: 3.5rem;
+    line-height: 4rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
+    max-width: 40rem;
     font-size: 1.25rem;
   }
 }
