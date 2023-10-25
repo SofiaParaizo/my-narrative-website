@@ -7943,6 +7943,11 @@ textarea.form-control-lg {
   color: #FBACD9 !important;
 }
 
+.text-green {
+  --bs-text-opacity: 1;
+  color: #10967B !important;
+}
+
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -8036,7 +8041,7 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #141414 !important;
 }
 
 .bg-white {
@@ -11701,5 +11706,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
