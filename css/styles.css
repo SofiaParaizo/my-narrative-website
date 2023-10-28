@@ -11708,3 +11708,15 @@ body {
 .footer {
   padding: 4rem 0;
 }
+
+.masthead-title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+  background: border-radius: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
