@@ -11578,7 +11578,7 @@ body {
   width: 100%;
   height: auto;
   padding: 10rem 0;
-  background: border-radius: 40px;
+  border-radius: 40px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11611,6 +11611,44 @@ body {
   .masthead h2, .masthead .h2 {
     max-width: 40rem;
     font-size: 1.25rem;
+  }
+}
+
+.subhead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  border-radius: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment : scroll;
+  background-size: cover;
+}
+.subhead h1, .subhead .h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #10967B;
+}
+.subhead h2, .subhead .h2 {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .subhead h1, .subhead .h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .subhead {
+  }
+  .subhead h1, .subhead .h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .subhead h2, .subhead .h2 {
+    font-size: 1.15rem;
   }
 }
 
@@ -11707,16 +11745,4 @@ body {
 
 .footer {
   padding: 4rem 0;
-}
-
-.masthead-title {
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 2rem 0;
-  background: border-radius: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
