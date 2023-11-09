@@ -11628,7 +11628,7 @@ body {
 .subhead h1, .subhead .h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   color: #9DB7F5;
 }
 .subhead h2, .subhead .h2 {
@@ -11637,7 +11637,7 @@ body {
 @media (min-width: 768px) {
   .subhead h1, .subhead .h1 {
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
 }
 @media (min-width: 992px) {
@@ -11645,7 +11645,7 @@ body {
   }
   .subhead h1, .subhead .h1 {
     font-size: 3.5rem;
-    line-height: 4rem;
+    line-height: 4.5rem;
   }
   .subhead h2, .subhead .h2 {
     /* max-width: 40rem; */
