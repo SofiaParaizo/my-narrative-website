@@ -1,0 +1,26 @@
+<svg width="245" height="245" viewBox="0 0 245 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_150_218)">
+<rect width="245" height="245" fill="#F8F8F8"/>
+<rect width="123" height="123" fill="#F8F8F8"/>
+<rect x="123" y="123" width="122" height="122" fill="#F8F8F8"/>
+<rect x="123" width="123" height="122" fill="#D6FD68"/>
+<rect y="122" width="123" height="123" fill="#9DB7F5"/>
+<path d="M245 0V122.5H122.5L245 0Z" fill="#9DB7F5"/>
+<path d="M245.5 123C229.189 123 213.546 129.427 202.013 140.866C190.479 152.306 184 167.822 184 184C184 200.178 190.479 215.694 202.013 227.134C213.546 238.573 229.189 245 245.5 245L245.5 184V123Z" fill="#D6FD68"/>
+<path d="M123 244C139.178 244 154.694 237.573 166.134 226.134C177.573 214.694 184 199.178 184 183C184 166.822 177.573 151.306 166.134 139.866C154.694 128.427 139.178 122 123 122L123 183L123 244Z" fill="#D6FD68"/>
+<circle cx="184" cy="184" r="16" fill="#9DB7F5"/>
+<rect y="122" width="123" height="61" fill="#F8F8F8"/>
+<rect width="17" height="122" fill="#9DB7F5"/>
+<rect x="21" width="17" height="122" fill="#9DB7F5"/>
+<rect x="42" width="17" height="122" fill="#9DB7F5"/>
+<rect x="64" width="17" height="122" fill="#9DB7F5"/>
+<rect x="85" width="17" height="122" fill="#9DB7F5"/>
+<rect x="106" width="17" height="122" fill="#9DB7F5"/>
+<rect x="30" y="152" width="64" height="63" fill="#D6FD68"/>
+</g>
+<defs>
+<clipPath id="clip0_150_218">
+<rect width="245" height="245" fill="white"/>
+</clipPath>
+</defs>
+</svg>
