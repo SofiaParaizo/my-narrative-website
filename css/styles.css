@@ -239,11 +239,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
-  text-decoration: underline;
+  color: #F8F8F8;
+  text-decoration: none;
 }
 a:hover {
-  color: #50817e;
+  color: #9DB7F5;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4096,7 +4096,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #fff;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
