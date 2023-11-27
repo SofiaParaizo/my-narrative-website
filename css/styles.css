@@ -66,6 +66,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #1A1919;
+  --animate-duration: 10s;
 }
 
 *,
@@ -11746,4 +11747,24 @@ body {
 
 .footer {
   padding: 4rem 0;
+}
+
+.chip-blue {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip-green {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #E6FDA3;
 }
