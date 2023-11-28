@@ -7949,6 +7949,11 @@ textarea.form-control-lg {
   color: #9DB7F5 !important;
 }
 
+.text-black-chip {
+  --bs-text-opacity: 1;
+  color: #1A1919 !important;
+}
+
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
@@ -11756,7 +11761,7 @@ body {
   font-size: 16px;
   line-height: 50px;
   border-radius: 25px;
-  background-color: #f1f1f1;
+  background-color: #B0C7FF;
 }
 
 .chip-green {
