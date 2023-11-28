@@ -11773,3 +11773,31 @@ body {
   border-radius: 25px;
   background-color: #E6FDA3;
 }
+
+.topnav {
+  background-color: #252424;
+  overflow: hidden;
+  border-radius: 40px;
+  width: 80%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #B0C7FF;
+  color: black;
+  border-radius: 40px;
+}
+
+.topnav a.active {
+  background-color: #E6FDA3;
+  color: #1A1919;
+  border-radius: 40px;
+}
