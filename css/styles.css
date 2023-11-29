@@ -11789,30 +11789,60 @@ body {
   box-shadow: 0 5px 15px rgba(230, 253, 163, 0.4);
 }
 
-.topnav {
-  background-color: #252424;
-  /* overflow: hidden; */
-  border-radius: 40px;
-  width: 85%;
-}
-
-.topnav a {
+.chip-timeline {
   display: inline-block;
-  color: #f2f2f2;
-  /* text-align: center; */
-  padding: 14px 16px;
-  /* text-decoration: none; */
-  /* font-size: 17px; */
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #B0C7FF;
 }
 
-.topnav a:hover {
-  /* background-color: #B0C7FF;
-  color: black;
-  border-radius: 40px; */
+.chip-timeline:hover {
+  background-color: #E6FDA3;
+  color: #D4FF5A;
+  box-shadow: 0 5px 15px rgba(230, 253, 163, 0.4);
 }
 
-.topnav a.active {
-  /* background-color: #E6FDA3;
-  color: #1A1919;
-  border-radius: 40px; */
+/*Portfolio styling from Freelancer template*/
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+.portfolio-modal .btn-close {
+  color: #1abc9c;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+/*End of portfolio styling from Freelancer template*/
