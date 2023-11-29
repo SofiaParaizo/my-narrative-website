@@ -11776,30 +11776,42 @@ body {
   background-color: #E6FDA3;
 }
 
+.chip-blue:hover {
+  background-color: #7DA2FB;
+  color: #7DA2FB;
+  box-shadow: 0 5px 15px rgba(176, 199, 255, 0.4);
+}
+
+.chip-green:hover {
+  background-color: #D4FF5A;
+  color: #D4FF5A;
+  box-shadow: 0 5px 15px rgba(230, 253, 163, 0.4);
+}
+
 .topnav {
   background-color: #252424;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 40px;
-  width: 80%;
+  width: 85%;
 }
 
 .topnav a {
-  float: left;
+  display: inline-block;
   color: #f2f2f2;
-  text-align: center;
+  /* text-align: center; */
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  /* text-decoration: none; */
+  /* font-size: 17px; */
 }
 
 .topnav a:hover {
-  background-color: #B0C7FF;
+  /* background-color: #B0C7FF;
   color: black;
-  border-radius: 40px;
+  border-radius: 40px; */
 }
 
 .topnav a.active {
-  background-color: #E6FDA3;
+  /* background-color: #E6FDA3;
   color: #1A1919;
-  border-radius: 40px;
+  border-radius: 40px; */
 }
