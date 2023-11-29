@@ -11537,8 +11537,9 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1rem;
     color: rgba(255, 255, 255, 0.8);
+    font-size: 95%;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
