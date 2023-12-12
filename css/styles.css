@@ -245,6 +245,7 @@ a {
 }
 a:hover {
   color: #9DB7F5;
+  text-shadow:  0 0 15px rgba(176, 199, 255, 0.4);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4559,20 +4560,23 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #E6FDA3;
+  text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: #E6FDA3;
+  text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(176, 199, 255);
+  text-shadow:  0 0 15px rgba(176, 199, 155, 0.4);
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -5556,17 +5560,17 @@ textarea.form-control-lg {
 
 .btn-close {
   box-sizing: content-box;
-  width: 1em;
-  height: 1em;
-  padding: 0.25em 0.25em;
-  color: #000;
+  width: 0.5em;
+  height: 0.5em;
+  padding: 0.40em 0.40em;
+  color: #E6FDA3;
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
   border: 0;
   border-radius: 0.25rem;
   opacity: 0.5;
 }
 .btn-close:hover {
-  color: #000;
+  color: #E6FDA3;
   text-decoration: none;
   opacity: 0.75;
 }
@@ -5696,10 +5700,10 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #1C1C1C;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 40px;
   outline: 0;
 }
 
@@ -11514,6 +11518,12 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+#mainNav .navbar-brand:hover {
+  color: #E6FDA3;
+  font-weight: 700;
+  padding: 0.9rem 0;
+  text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
+}
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#000, 80%);
   outline: none;
@@ -11535,6 +11545,10 @@ body {
     padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.8);
   }
+  #mainNav .navbar-brand:hover {
+    color: rgba(230, 253, 163);
+    text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
+  }
   #mainNav .nav-link {
     transition: none;
     padding: 2.5rem 1rem;
@@ -11542,10 +11556,11 @@ body {
     font-size: 95%;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(230, 253, 163);
+    text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
   }
-  #mainNav .nav-link:active {
-    color: #fff;
+  #mainNav .nav-link.active {
+    color: #B0C7FF;
   }
   #mainNav.navbar-shrink {
     background-color: #000;
@@ -11559,15 +11574,16 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #10967B;
+    color: rgba(230, 253, 163);
+    text-shadow: 0 0 15px rgba(230, 253, 163, 0.4)
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #EAEAEA;
+    color: #B0C7FF;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #EAEAEA;
+    color: #B0C7FF;
     outline: none;
-    border-bottom: 0.25rem solid #EAEAEA;
+    border-bottom: 0.15rem solid #B0C7FF;
   }
 }
 
@@ -11846,3 +11862,10 @@ body {
   }
 }
 /*End of portfolio styling from Freelancer template*/
+
+.bordered-div {
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0.5rem 0.5rem;
+}
