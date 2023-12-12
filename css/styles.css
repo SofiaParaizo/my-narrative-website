@@ -11813,6 +11813,7 @@ body {
   line-height: 50px;
   border-radius: 25px;
   background-color: #B0C7FF;
+  margin-bottom: 5px;
 }
 
 .chip-timeline:hover {
