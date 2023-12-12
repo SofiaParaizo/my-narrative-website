@@ -1,0 +1,25 @@
+{
+    "theme_color": "#f8f8f8",
+    "background_color": "#1a1919",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "assets/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "assets/icon512_maskable.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "name": "Virtually Human",
+    "short_name": "VH",
+    "start_url": "https://sofiaparaizo.github.io/my-narrative-website/index.html"
+}
