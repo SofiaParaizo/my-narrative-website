@@ -11864,8 +11864,22 @@ body {
 }
 /*End of portfolio styling from Freelancer template*/
 
-.bordered-div {
-  border: 1px solid #fff;
+.bordered-div-green {
+  border: 1px solid #D6FD68;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0.5rem 0.5rem;
+}
+
+.bordered-div-blue {
+  border: 1px solid #9DB7F5;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0.5rem 0.5rem;
+}
+
+.bordered-div-white {
+  border: 1px solid #f8f8f8;
   padding: 20px;
   border-radius: 20px;
   margin: 0.5rem 0.5rem;
