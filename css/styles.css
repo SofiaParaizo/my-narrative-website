@@ -11610,19 +11610,13 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  /* font-family: 'Poppins', sans-serif; */
   font-size: 3.5rem;
   line-height: 3.8rem;
-  /* color: #9DB7F5; */
 }
 .masthead h2, .masthead .h2 {
-  /* max-width: 20rem; */
   font-size: 1.3rem;
 }
 @media (max-width: 992px) {
-  /* .masthead {
-    height: 50vh;
-  } */
   .masthead h1, .masthead .h1 {
     font-size: 3rem;
     line-height: 3.4rem;
@@ -11631,7 +11625,10 @@ body {
   .masthead h2, .masthead .h2 {
     font-size: 1.2rem;
     text-align: center;
-    /* max-width: 40rem; */
+  }
+  .img-fluid {
+    display: block;
+    margin: auto;
   }
 }
 @media (max-width: 768px) {
@@ -11640,7 +11637,6 @@ body {
     line-height: 3rem;
   }
   .masthead h2, .masthead .h2 {
-    /* max-width: 20rem; */
     font-size: 1.1rem;
   }
   .img-fluid {
